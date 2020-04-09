@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $comment = $_POST['comment'];
-$toEmail = "mscotton17@gmail.com";
+$toEmail = 'mscotton17@gmail.com';
 $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 $showMessage = '';
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {	
